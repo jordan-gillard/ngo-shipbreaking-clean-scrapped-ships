@@ -1,0 +1,11 @@
+[project]
+name = "ngo-shipbreaking-clean-scrapped-ships"
+version = "0.1.0"
+description = "Clean and normalize the annual lists of scrapped ships from the NGO Shipbreaking Platform"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "openpyxl>=3.1.0",
+]
